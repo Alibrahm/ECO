@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "nexus",
+			"path": "../../.."
+		},
+		{
+			"name": "DashBook",
+			"path": "../../../../dashboard/DashBook"
+		},
+		{
+			"name": "Dasshboard-design",
+			"path": "../../../../Dasshboard-design"
+		},
+		{
+			"name": "book2",
+			"path": "../../../../book2"
+		},
+		{
+			"path": "../../../../fbb/FB"
+		},
+		{
+			"path": "../../../../css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}

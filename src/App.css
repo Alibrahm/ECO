@@ -1,0 +1,197 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.sidebar {
+  background:#fafafa;
+  color: rgb(11, 11, 11);
+  /* box-shadow: rgba(19, 21, 24, 0.11) 0px 7px 30px 0px; */
+  box-shadow: 4px 4px 23px rgba(0, 0, 0, 0.08);
+  /* height: 100vh; */
+  border-radius: 5px;
+  width: 310px;
+  font-style: "Ubuntu";
+  height: calc(100vh - 3px);
+  /* z-index: 1; */
+  overflow-x: hidden;
+  /* background-size: cover; */
+  /* background-position: center center; */
+  /* display: block; */
+  /* box-shadow: 0px 0px 40px 1px rgba(236, 232, 232, 0.9); */
+  overflow-y: auto;
+  
+  
+  
+}
+
+.App {
+  /* padding: 0.5rem 3.5rem; */
+  color: var(--black);
+  background: linear-gradient(
+    106.37deg,
+    #ffe1bc 29.63%,
+    #ffcfd1 51.55%,
+    #f3c6f1 90.85%
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu';
+}
+
+.center {
+  padding-left: 10px;
+  height: 70%;}
+
+.icon {
+  font-size: 18px;
+  flex: 1;
+  /* font-size: 18px;  */
+  /* color: #ced7e0;
+}
+
+.center {
+  padding-left: 10px;
+  height: 70%;
+}
+
+
+
+.active a {
+  border-right: 6px solid rgb(255, 12, 12);
+  /* background: #595d63; */
+  /* background: #595d63; */
+
+  /* color: rgb(255, 253, 252); */
+
+}
+
+.myclas{
+  color:rgb(17 24 39),
+  font-weight 600px;;
+
+}
+
+.Table td,
+th {
+  border: none !important;
+}
+
+.MainDash{
+  /* padding-top: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.homeContainer{
+  display:auto;
+  /* height: 100%; */
+  
+}
+.widgets{
+  display: flex;
+  padding: 20px;
+  gap: auto;
+}
+
+ul {
+  list-style: none;
+  /* background: #f1eeed; */
+  /* color: rgb(14, 14, 14); */
+  font-style: "Ubuntu";
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* display: flex;
+  justify-content: space-around; */
+}
+li{
+  /* display: flex;
+  align-items: center; */
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-family: 'Ubuntu';
+  
+}
+
+li span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.93);
+  /* margin-left: 30px; */
+
+}
+
+
+
+
+
+
+
+.widgets{
+  /* display: flex; */
+  padding: 20px;
+  gap: 16px;
+}
+hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #333;
+  /* old IE */
+  background-color: #333;
+  /* Modern Browsers */
+}
+
+
+
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+ #preview {
+  background: transparent
+    url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png')
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+  border: none;
+}
