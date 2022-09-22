@@ -9,7 +9,8 @@ import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import { Ecommerce, Stacked, Pyramid, Customers, Line, Area, Bar, Pie, Financial, ColorMapping } from './pages';
 import './App.css';
 import Customerprofile from "./pages/customerlog/Customerprofile";
-
+import PaymentHistory from "./pages/payments/PaymentHistory";
+import Device from "./pages/devices/Device";
 import { useStateContext } from './contexts/ContextProvider';
 import Business from './pages/Business';
 
@@ -80,6 +81,8 @@ const App = () => {
                 {/* <Route path="/profile" element={(<Customerprofile />)} /> */}
                 <Route path="profile/:id">
                 <Route index element={< Customerprofile/>}/>
+                <Route path="payments"  element={<PaymentHistory/>}></Route>
+              <Route path="devices"  element={<Device/>}></Route>
                 </Route>
 
                 {/* <Route path="/home" element={(<Home />)} /> */}
